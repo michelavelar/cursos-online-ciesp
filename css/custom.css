@@ -56,6 +56,8 @@ nav.navbar {margin-top: 30px;}
   margin-top: 40px;
 }
 
+.card-header h5 { margin-top: .5rem !important; }
+
 #sobre-cursos .lateral {
   background-color: #E8E8E8;
 }
@@ -91,6 +93,11 @@ nav.navbar {margin-top: 30px;}
 
 .setembro .separador {border:5px solid #FED708;}
 
+.setembro aside .card-header {
+  background: #FED708;
+  color: #333333;
+}
+
 /* OUTUBRO */
 .outubro .badge {
   background: #E4017E;
@@ -106,6 +113,13 @@ nav.navbar {margin-top: 30px;}
 .outubro .btn-light:hover { background: #B70065; color: #FFFFFF; }
 
 .outubro a:hover, .outubro .fa { color: #B70065 }
+
+.outubro .separador {border:5px solid #E4017E;}
+
+.outubro aside .card-header {
+  background: #E4017E;
+  color: #FFFFFF;
+}
 
 /* NOVEMBRO */
 .novembro .badge {
@@ -123,6 +137,13 @@ nav.navbar {margin-top: 30px;}
 
 .novembro a:hover, .novembro .fa { color: #1B86B5 }
 
+.novembro .separador {border:5px solid #199DD8;}
+
+.novembro aside .card-header {
+  background: #199DD8;
+  color: #FFFFFF;
+}
+
 /* NOVEMBRO */
 .dezembro .badge {
   background: #E20A19;
@@ -138,6 +159,13 @@ nav.navbar {margin-top: 30px;}
 .dezembro .btn-light:hover { background: #AF0712; color: #FFFFFF; }
 
 .dezembro a:hover, .dezembro .fa { color: #AF0712 }
+
+.dezembro .separador {border:5px solid #E20A19;}
+
+.dezembro aside .card-header {
+  background: #E20A19;
+  color: #FFFFFF;
+}
 
 footer {
   padding: 50px 0;
