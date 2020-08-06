@@ -132,7 +132,6 @@ nav.navbar {margin-top: 30px;}
 /* accordion */
 .setembro .card-header {
   background: #FED708;
-  color: #333333;
 }
 
 .setembro .card-header button{color: #333333;}
@@ -160,6 +159,13 @@ nav.navbar {margin-top: 30px;}
   color: #FFFFFF;
 }
 
+/* accordion */
+.outubro .card-header {
+  background: #E4017E;
+}
+
+.outubro .card-header button{color: #FFFFFF;}
+
 /* NOVEMBRO */
 .novembro .badge-curso {
   background: #199DD8;
@@ -183,6 +189,13 @@ nav.navbar {margin-top: 30px;}
   color: #FFFFFF;
 }
 
+/* accordion */
+.novembro .card-header {
+  background: #199DD8;
+}
+
+.novembro .card-header button{color: #FFFFFF;}
+
 /* DEZEMBRO */
 .dezembro .badge-curso {
   background: #E20A19;
@@ -205,6 +218,13 @@ nav.navbar {margin-top: 30px;}
   background: #E20A19;
   color: #FFFFFF;
 }
+
+/* accordion */
+.dezembro .card-header {
+  background: #E20A19;
+}
+
+.dezembro .card-header button{color: #FFFFFF;}
 
 footer {
   padding: 50px 0;
