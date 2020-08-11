@@ -99,11 +99,57 @@ nav.navbar {margin-top: 30px;}
 
 .accordion>.card>.card-header h2 { margin-top: 0 !important; }
 
-.setembro .card-header {background: red}
-
 .collapse .card-body h4 { margin-top: 0 !important; }
 
 .collapse .card-body h5 { margin-top: 30px !important; }
+
+
+
+
+#webinars {
+  padding: 50px 0;
+  color: #ffffff;
+  background-color: #cc0000;
+}
+
+#webinars .light { font-weight: 500 }
+
+/* SETEMBRO */
+.webinars .badge-curso {
+  background: #CC0000;
+  color: #ffffff
+}
+
+.webinars .btn-light {
+  background: #CC0000;
+  color: #ffffff;
+  font-weight: 700
+}
+
+.webinars .btn-light:hover { background: #E6C203; color: #ffffff; }
+
+.webinars a:hover, .webinars .fa { color: #E6C203; text-decoration: none }
+
+.webinars .separador {border:5px solid #CC0000;}
+
+.webinars aside .card-header {
+  background: #CC0000;
+  color: #ffffff;
+}
+
+/* accordion */
+.webinars .card-header {
+  background: #CC0000;
+}
+
+.webinars .card-header button{color: #ffffff;}
+
+.webinars footer a:hover, 
+.webinars footer a:hover .fa { color: #CC0000 !important}
+
+
+
+
 
 
 /* SETEMBRO */
@@ -120,7 +166,7 @@ nav.navbar {margin-top: 30px;}
 
 .setembro .btn-light:hover { background: #E6C203; color: #333333; }
 
-.setembro a:hover, .setembro .fa { color: #E6C203 }
+.setembro a:hover, .setembro .fa { color: #E6C203; text-decoration: none }
 
 .setembro .separador {border:5px solid #FED708;}
 
@@ -136,6 +182,9 @@ nav.navbar {margin-top: 30px;}
 
 .setembro .card-header button{color: #333333;}
 
+.setembro footer a:hover, 
+.setembro footer a:hover .fa { color: #FED708 !important}
+
 /* OUTUBRO */
 .outubro .badge-curso {
   background: #E4017E;
@@ -150,7 +199,7 @@ nav.navbar {margin-top: 30px;}
 
 .outubro .btn-light:hover { background: #B70065; color: #FFFFFF; }
 
-.outubro a:hover, .outubro .fa { color: #B70065 }
+.outubro a:hover, .outubro .fa { color: #B70065; text-decoration: none }
 
 .outubro .separador {border:5px solid #E4017E;}
 
@@ -166,6 +215,9 @@ nav.navbar {margin-top: 30px;}
 
 .outubro .card-header button{color: #FFFFFF;}
 
+.outubro footer a:hover, 
+.outubro footer a:hover .fa { color: #E4017E !important}
+
 /* NOVEMBRO */
 .novembro .badge-curso {
   background: #199DD8;
@@ -180,7 +232,7 @@ nav.navbar {margin-top: 30px;}
 
 .novembro .btn-light:hover { background: #1B86B5; color: #FFFFFF; }
 
-.novembro a:hover, .novembro .fa { color: #1B86B5 }
+.novembro a:hover, .novembro .fa { color: #1B86B5; text-decoration: none }
 
 .novembro .separador {border:5px solid #199DD8;}
 
@@ -196,6 +248,9 @@ nav.navbar {margin-top: 30px;}
 
 .novembro .card-header button{color: #FFFFFF;}
 
+.novembro footer a:hover, 
+.novembro footer a:hover .fa { color: #1B86B5 !important}
+
 /* DEZEMBRO */
 .dezembro .badge-curso {
   background: #E20A19;
@@ -210,7 +265,7 @@ nav.navbar {margin-top: 30px;}
 
 .dezembro .btn-light:hover { background: #AF0712; color: #FFFFFF; }
 
-.dezembro a:hover, .dezembro .fa { color: #AF0712 }
+.dezembro a:hover, .dezembro .fa { color: #AF0712; text-decoration: none }
 
 .dezembro .separador {border:5px solid #E20A19;}
 
@@ -225,6 +280,9 @@ nav.navbar {margin-top: 30px;}
 }
 
 .dezembro .card-header button{color: #FFFFFF;}
+
+.dezembro footer a:hover, 
+.dezembro footer a:hover .fa { color: #E20A19 !important}
 
 footer {
   padding: 50px 0;
@@ -244,10 +302,10 @@ footer a .fa{
   text-decoration: none;
   color: white !important
 }
-
-.setembro footer a:hover, 
-.setembro footer a:hover .fa { color: red !important}
-
+footer a:hover{
+  text-decoration: none;
+  color: #ccc !important
+}
 
 
 /* SHARE 
