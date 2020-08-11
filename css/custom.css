@@ -5,7 +5,7 @@ body {
   padding-top: 85px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  color: #333333;
+  color: #666;
   font-size: 16px
 }
 
@@ -13,7 +13,8 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 900;
   text-transform: uppercase;
-  text-align: inherit
+  text-align: inherit;
+  color: #444;
 }
 
 .btn {font-weight: 700; border:0;}
