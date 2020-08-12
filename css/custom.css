@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 900;
   text-transform: uppercase;
   text-align: inherit;
-  color: #444;
 }
 
 .btn {font-weight: 700; border:0;}
@@ -109,13 +108,16 @@ nav.navbar {margin-top: 30px;}
 
 #webinars {
   padding: 50px 0;
-  color: #ffffff;
+  color: #ffffff !important;
   background-color: #cc0000;
 }
 
+#webinars h1 {color: #ffffff !important;}
+
 #webinars .light { font-weight: 500 }
 
-/* SETEMBRO */
+
+/* webinars */
 .webinars .badge-curso {
   background: #CC0000;
   color: #ffffff
@@ -127,9 +129,9 @@ nav.navbar {margin-top: 30px;}
   font-weight: 700
 }
 
-.webinars .btn-light:hover { background: #E6C203; color: #ffffff; }
+.webinars .btn-light:hover { background: #333333; color: #ffffff; }
 
-.webinars a:hover, .webinars .fa { color: #E6C203; text-decoration: none }
+.webinars a:hover, .webinars .fa { color: #CC0000; text-decoration: none }
 
 .webinars .separador {border:5px solid #CC0000;}
 
