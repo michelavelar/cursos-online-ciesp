@@ -153,6 +153,44 @@ nav.navbar {margin-top: 30px;}
 
 
 
+/* MARÇO */
+.marco .badge-curso {
+  background: #168db4;
+  color: #ffffff
+}
+
+.marco .btn-light {
+  background: #168db4;
+  color: #ffffff;
+  font-weight: 700
+}
+
+.marco .btn-light .fa {
+ color: #ffffff
+}
+
+.marco .btn-light:hover { background: #006688; color: #ffffff; }
+
+.marco a:hover, 
+.marco .fa { color: #168db4; text-decoration: none }
+
+.marco .separador {border: 5px solid #168db4;}
+
+.marco aside .card-header {
+  background: #168db4;
+  color: #ffffff;
+}
+
+/* accordion */
+.marco .card-header {
+  background: #168db4;
+}
+
+.marco .card-header button{color: #ffffff;}
+
+.marco footer a:hover, 
+.marco footer a:hover .fa { color: #168db4 !important}
+
 
 
 /* SETEMBRO */
