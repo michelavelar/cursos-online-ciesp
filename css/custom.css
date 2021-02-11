@@ -150,7 +150,50 @@ nav.navbar {margin-top: 30px;}
 .webinars footer a:hover, 
 .webinars footer a:hover .fa { color: #CC0000 !important}
 
+/* TABS DOS MESES */
 
+
+/*TAB CARDS
+--------------------------------------------------*/
+
+.active-tab {
+  background: #cc0000;
+  color: #fff !important
+}
+
+
+.nav-item {
+  border-radius: .25rem;
+  border: 1px solid #DBDCD7 !important;
+  margin: 5px;
+  font-size: 16px !important;
+}
+
+.topics li {
+
+flex: 1 1 auto;
+text-align: center;
+margin-top: 0;
+}
+
+ 
+
+.topics li a {
+border-radius: .25rem;
+border: 0px solid #DBDCD7 !important;
+color: #333333;
+margin: 0;
+padding: 10px;
+display: block;
+/* font-size: 18px; */
+text-transform: uppercase !important;
+cursor: pointer;
+}
+
+.topics li a:hover {
+background: #cc0000;
+color: #fff;
+}
 
 
 /* MARÇO */
@@ -191,6 +234,44 @@ nav.navbar {margin-top: 30px;}
 .marco footer a:hover, 
 .marco footer a:hover .fa { color: #168db4 !important}
 
+
+/* ABRIL */
+.abril .badge-curso {
+  background: #00877A;
+  color: #ffffff
+}
+
+.abril .btn-light {
+  background: #00877A;
+  color: #ffffff;
+  font-weight: 700
+}
+
+.abril .btn-light .fa {
+ color: #ffffff
+}
+
+.abril .btn-light:hover { background: #006359; color: #ffffff; }
+
+.abril a:hover, 
+.abril .fa { color: #00877A; text-decoration: none }
+
+.abril .separador {border: 5px solid #00877A;}
+
+.abril aside .card-header {
+  background: #00877A;
+  color: #ffffff;
+}
+
+/* accordion */
+.abril .card-header {
+  background: #00877A;
+}
+
+.abril .card-header button{color: #ffffff;}
+
+.abril footer a:hover, 
+.abril footer a:hover .fa { color: #006359 !important}
 
 
 /* SETEMBRO */
