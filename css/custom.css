@@ -156,12 +156,6 @@ nav.navbar {margin-top: 30px;}
 /*TAB CARDS
 --------------------------------------------------*/
 
-.active-tab {
-  background: #cc0000;
-  color: #fff !important
-}
-
-
 .topics .nav-item {
   border-radius: .25rem;
   border: 1px solid #DBDCD7 !important;
@@ -170,33 +164,48 @@ nav.navbar {margin-top: 30px;}
 }
 
 .topics li {
-
-flex: 1 1 auto;
-text-align: center;
-margin-top: 0;
+  flex: 1 1 auto;
+  text-align: center;
+  margin-top: 0;
 }
 
- 
 
 .topics li a {
-border-radius: .25rem;
-border: 0px solid #DBDCD7 !important;
-color: #333333;
-margin: 0;
-padding: 10px;
-display: block;
-/* font-size: 18px; */
-text-transform: uppercase !important;
-cursor: pointer;
+  border-radius: .25rem;
+  border: 0px solid #DBDCD7 !important;
+  color: #333333;
+  margin: 0;
+  padding: 10px;
+  display: block;
+  /* font-size: 18px; */
+  text-transform: uppercase !important;
+  cursor: pointer;
 }
 
 .topics li a:hover {
-background: #cc0000;
-color: #fff;
+  background: #cc0000;
+  color: #fff;
+}
+
+.active-tab {
+  background: #cc0000;
+  color: #fff !important
 }
 
 
+/* .topics li a:hover.abril {
+  background: #00877A;
+  color: #fff;
+} */
+
+
 /* MARÇO */
+
+.active-tab.marco, .topics li a:hover.marco {
+  background: #168db4;
+  color: #ffffff !important
+}
+
 .marco .badge-curso {
   background: #168db4;
   color: #ffffff
@@ -236,6 +245,13 @@ color: #fff;
 
 
 /* ABRIL */
+
+.active-tab.abril, .topics li a:hover.abril {
+  background: #00877A;
+  color: #ffffff !important
+}
+
+
 .abril .badge-curso {
   background: #00877A;
   color: #ffffff
@@ -275,6 +291,12 @@ color: #fff;
 
 
 /* SETEMBRO */
+
+.active-tab.setembro, .topics li a:hover.setembro {
+  background: #FED708;
+  color: #333333 !important
+}
+
 .setembro .badge-curso {
   background: #FED708;
   color: #333333
