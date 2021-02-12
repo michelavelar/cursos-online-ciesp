@@ -290,6 +290,51 @@ nav.navbar {margin-top: 30px;}
 .abril footer a:hover .fa { color: #006359 !important}
 
 
+
+/* MAIO */
+
+.active-tab.maio, .topics li a:hover.maio {
+  background: #993399;
+  color: #ffffff !important
+}
+
+
+.maio .badge-curso {
+  background: #993399;
+  color: #ffffff
+}
+
+.maio .btn-light {
+  background: #993399;
+  color: #ffffff;
+  font-weight: 700
+}
+
+.maio .btn-light .fa {
+ color: #ffffff
+}
+
+.maio .btn-light:hover { background: #660066; color: #ffffff; }
+
+.maio a:hover, 
+.maio .fa { color: #993399; text-decoration: none }
+
+.maio .separador {border: 5px solid #993399;}
+
+.maio aside .card-header {
+  background: #993399;
+  color: #ffffff;
+}
+
+/* accordion */
+.maio .card-header { background: #993399;}
+
+.maio .card-header button{color: #ffffff;}
+
+.maio footer a:hover, 
+.maio footer a:hover .fa { color: #660066 !important}
+
+
 /* SETEMBRO */
 
 .active-tab.setembro, .topics li a:hover.setembro {
