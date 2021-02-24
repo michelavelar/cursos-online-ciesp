@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 900;
   text-transform: uppercase;
-  text-align: initial;
+
 }
 
 .btn {font-weight: 700; border:0;}
@@ -61,6 +61,7 @@ nav.navbar {margin-top: 30px;}
 #sobre-cursos h3,
 #sobre-cursos h4 {
   margin-top: 40px;
+  text-align: left;
 }
 
 #sobre-cursos .lateral {
@@ -333,6 +334,50 @@ nav.navbar {margin-top: 30px;}
 
 .maio footer a:hover, 
 .maio footer a:hover .fa { color: #660066 !important}
+
+
+
+/* JUNHO */
+
+.junho .badge-curso,
+.junho aside .card-header,
+.active-tab.junho, 
+.topics li a:hover.junho {
+  background: #E73440;
+  color: #ffffff !important
+}
+
+.junho .btn-light {
+  background: #E73440;
+  color: #ffffff;
+  font-weight: 700
+}
+
+.junho .btn-light .fa {
+ color: #ffffff
+}
+
+.junho .btn-light:hover { background: #8e0912; color: #ffffff; }
+
+.junho a:hover, 
+.junho .fa { 
+  color: #E73440; 
+  text-decoration: none 
+}
+
+.junho .separador { border: 5px solid #E73440 }
+
+/* accordion */
+.junho .card-header { background: #E73440 }
+
+.junho .card-header button { color: #ffffff }
+
+.junho footer a:hover, 
+.junho footer a:hover .fa { 
+  color: #E73440 !important
+}
+
+
 
 
 /* SETEMBRO */
