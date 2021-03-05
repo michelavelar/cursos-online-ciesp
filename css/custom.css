@@ -420,6 +420,46 @@ nav.navbar {margin-top: 30px;}
 }
 
 
+/* AGOSTO */
+
+.agosto .badge-curso,
+.agosto aside .card-header,
+.active-tab.agosto, 
+.topics li a:hover.agosto {
+  background: #ec660c;
+  color: #ffffff !important
+}
+
+.agosto .btn-light {
+  background: #ec660c;
+  color: #ffffff;
+  font-weight: 700
+}
+
+.agosto .btn-light .fa {
+ color: #ffffff
+}
+
+.agosto .btn-light:hover { background: #a94400; color: #ffffff; }
+
+.agosto a:hover, 
+.agosto .fa { 
+  color: #ec660c; 
+  text-decoration: none 
+}
+
+.agosto .separador { border: 5px solid #ec660c }
+
+/* accordion */
+.agosto .card-header { background: #ec660c }
+
+.agosto .card-header button { color: #ffffff }
+
+.agosto footer a:hover, 
+.agosto footer a:hover .fa { 
+  color: #ec660c !important
+}
+
 
 
 /* SETEMBRO */
@@ -440,9 +480,9 @@ nav.navbar {margin-top: 30px;}
   font-weight: 700
 }
 
-.setembro .btn-light:hover { background: #E6C203; color: #333333; }
+.setembro .btn-light:hover { background: #af9300; color: #333333; }
 
-.setembro a:hover, .setembro .fa { color: #E6C203; text-decoration: none }
+.setembro a:hover, .setembro .fa { color: #af9300; text-decoration: none }
 
 .setembro .separador {border:5px solid #FED708;}
 
@@ -461,71 +501,89 @@ nav.navbar {margin-top: 30px;}
 .setembro footer a:hover, 
 .setembro footer a:hover .fa { color: #FED708 !important}
 
+
+
 /* OUTUBRO */
-.outubro .badge-curso {
-  background: #E4017E;
-  color: #FFFFFF
+.outubro .badge-curso,
+.outubro aside .card-header,
+.active-tab.outubro, 
+.topics li a:hover.outubro {
+  background: #e5087e;
+  color: #ffffff !important
 }
 
 .outubro .btn-light {
-  background: #E4017E;
-  color: #FFFFFF;
+  background: #e5087e;
+  color: #ffffff;
   font-weight: 700
 }
 
-.outubro .btn-light:hover { background: #B70065; color: #FFFFFF; }
-
-.outubro a:hover, .outubro .fa { color: #B70065; text-decoration: none }
-
-.outubro .separador {border:5px solid #E4017E;}
-
-.outubro aside .card-header {
-  background: #E4017E;
-  color: #FFFFFF;
+.outubro .btn-light .fa {
+ color: #ffffff
 }
+
+.outubro .btn-light:hover { background: #9e0054; color: #ffffff; }
+
+.outubro a:hover, 
+.outubro .fa { 
+  color: #e5087e; 
+  text-decoration: none 
+}
+
+.outubro .separador { border: 5px solid #e5087e }
 
 /* accordion */
-.outubro .card-header {
-  background: #E4017E;
-}
+.outubro .card-header { background: #e5087e }
 
-.outubro .card-header button{color: #FFFFFF;}
+.outubro .card-header button { color: #ffffff }
 
 .outubro footer a:hover, 
-.outubro footer a:hover .fa { color: #E4017E !important}
+.outubro footer a:hover .fa { 
+  color: #e5087e !important
+}
+
 
 /* NOVEMBRO */
-.novembro .badge-curso {
-  background: #199DD8;
-  color: #FFFFFF
+.novembro .badge-curso,
+.novembro aside .card-header,
+.active-tab.novembro, 
+.topics li a:hover.novembro {
+  background: #189dd9;
+  color: #ffffff !important
 }
 
 .novembro .btn-light {
-  background: #199DD8;
-  color: #FFFFFF;
+  background: #189dd9;
+  color: #ffffff;
   font-weight: 700
 }
 
-.novembro .btn-light:hover { background: #1B86B5; color: #FFFFFF; }
-
-.novembro a:hover, .novembro .fa { color: #1B86B5; text-decoration: none }
-
-.novembro .separador {border:5px solid #199DD8;}
-
-.novembro aside .card-header {
-  background: #199DD8;
-  color: #FFFFFF;
+.novembro .btn-light .fa {
+ color: #ffffff
 }
+
+.novembro .btn-light:hover { background: #00608c; color: #ffffff; }
+
+.novembro a:hover, 
+.novembro .fa { 
+  color: #189dd9; 
+  text-decoration: none 
+}
+
+.novembro .separador { border: 5px solid #189dd9 }
 
 /* accordion */
-.novembro .card-header {
-  background: #199DD8;
-}
+.novembro .card-header { background: #189dd9 }
 
-.novembro .card-header button{color: #FFFFFF;}
+.novembro .card-header button { color: #ffffff }
 
 .novembro footer a:hover, 
-.novembro footer a:hover .fa { color: #1B86B5 !important}
+.novembro footer a:hover .fa { 
+  color: #189dd9 !important
+}
+
+
+
 
 /* DEZEMBRO */
 .dezembro .badge-curso {
