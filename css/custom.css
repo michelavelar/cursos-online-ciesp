@@ -379,6 +379,48 @@ nav.navbar {margin-top: 30px;}
 
 
 
+/* JULHO */
+
+.julho .badge-curso,
+.julho aside .card-header,
+.active-tab.julho, 
+.topics li a:hover.julho {
+  background: #fbbb22;
+  color: #ffffff !important
+}
+
+.julho .btn-light {
+  background: #fbbb22;
+  color: #ffffff;
+  font-weight: 700
+}
+
+.julho .btn-light .fa {
+ color: #ffffff
+}
+
+.julho .btn-light:hover { background: #b98200; color: #ffffff; }
+
+.julho a:hover, 
+.julho .fa { 
+  color: #fbbb22; 
+  text-decoration: none 
+}
+
+.julho .separador { border: 5px solid #fbbb22 }
+
+/* accordion */
+.julho .card-header { background: #fbbb22 }
+
+.julho .card-header button { color: #ffffff }
+
+.julho footer a:hover, 
+.julho footer a:hover .fa { 
+  color: #fbbb22 !important
+}
+
+
+
 
 /* SETEMBRO */
 
